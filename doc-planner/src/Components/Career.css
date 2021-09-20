@@ -1,0 +1,811 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: white;
+  background: #1cb39b;
+}
+
+.bg_top {
+    background-image: url(../imgs/bg_top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 550px;
+    position: relative;
+    top: 65px;
+  }
+  
+  .article {
+    position: absolute;
+    top: 11%;
+    left: 12%;
+    width: 34.5%;
+    min-width: 34.5%;
+    height: 79%;
+    min-height: 79%;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 50px;
+  }
+  
+  #title1 {
+    color: #00b39b;
+    font-weight: 200;
+    font-size: 2.4rem;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+  }
+  
+  .paragraphs {
+    display: flex;
+    justify-content: space-between;
+    color: #747474;
+    margin-top: 0;
+    margin-bottom: 25px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+  }
+  
+  .bg_top .article a {
+    text-decoration: none;
+    color: white;
+    background-color: #3d83df;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 15px 20px;
+    font-size: 11px;
+  }
+
+  /*------------------------------ jobs ------------------------*/
+  .jobs {
+    text-align: center;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+    top: 65px;
+  }
+  .global_margin_2 {
+    margin: 0 12%;
+    overflow: auto;
+    height: inherit;
+  }
+
+  .j_title {
+    color: #00b39b;
+    font-weight: 200;
+    font-size: 1.8rem;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+  }
+
+  .imgs_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .Card {
+    border-radius: 5px;
+    align-items: stretch;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .Card a {
+    text-decoration: none;
+    background-color: #3d83df;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    padding: 13px 15px;
+    font-size: 12px;
+    margin: 25px 25px;
+    display: inline-block;
+  }
+
+  .Card_a{
+    text-decoration: none !important;
+    background-color: #3d83df!important;
+    border-radius: 5px!important;
+    font-weight: 500!important;
+    color: white!important;
+    padding: 13px 15px!important;
+    font-size: 12px!important;
+    margin: 25px 25px!important;
+    display: inline-block!important;
+  }
+  
+  .Card p {
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+    /* ------------------------- together --------------------*/
+  .global_margin2 {
+    margin: 0 9%;
+    height: inherit;
+    text-align: center;
+  }
+
+  .global_margin_2 {
+    margin: 0 9%;
+    height: auto;
+    text-align: center;
+  }
+
+  .together {
+    background-color: #f6f8f8;
+    height: 700px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+  }
+  
+  .together p {
+    display: block;
+    margin-top: 55px;
+    width: 100%;
+  }
+  
+  .together_grid {
+    display: block;
+    position: relative;
+    width: 100%;
+
+  }
+
+  .item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .item1:hover {
+    cursor: pointer;
+  }
+  
+  .item1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 470px;
+    height: 250px;
+  }
+  
+  .item1:hover .play {
+    fill: #00b39b;
+  }
+  
+  .item2 {
+    position: absolute;
+    top: 0;
+    left: 480px;
+    width: 230px;
+    height: 250px;
+  }
+  
+  .item3 {
+    position: absolute;
+    top: 0;
+    left: 720px;
+    width: 230px;
+    height: 480px;
+  }
+  
+  .item4 {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    width: 230px;
+    height: 220px;
+  }
+  
+  .item5 {
+    position: absolute;
+    top: 260px;
+    left: 240px;
+    width: 470px;
+    height: 220px;
+    background: #fff;
+    text-align: center;
+    padding: 0 5%;
+    box-shadow: 0 20px 40px 0 rgb(0 0 0 / 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .item5 a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #edf1f1;
+    border-radius: 6px;
+    padding: 12px 15px;
+    font-size: 13px;
+  }
+  
+  .item5 p {
+    margin-top: 10px !important;
+    line-height: 25px;
+    font-weight: 200;
+    color: darkslateblue;
+  }
+  
+  .instagram .fab {
+    font-size: 30px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+    opacity: 0.75;
+  }
+/*------------------------------ VALUES PERKS ------------------------*/
+  .values_perks {
+    padding-top: 50px;
+    width: 100%;
+    /* display: flex; */
+    height: 650px;
+    overflow-y: hidden;
+  }
+  .values {
+    width: 65%;
+    /* border: 1px solid black; */
+    height: auto;
+    float: left;
+    margin-top: 10px;
+  }
+  .values_title {
+    text-align: center;
+    font-size: 1.6rem !important;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .col-2-1 {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+  }
+
+  .col-2-1 ul li {
+    height: 28%;
+    font-size: 10px;
+  }
+
+  .li_header {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .li_p {
+    font-size: 12px;
+    color: #747474;
+    margin: 9px 0;
+    line-height: 18px;
+  }
+
+  .col-2-2 {
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-right: 20px;
+  }
+  .col-2-2 ul li {
+    height: 28%;
+    font-size: 10px;
+  }
+
+  ul {
+    list-style: none;
+    height: 420px;
+    padding: 0;
+  }
+  
+  li {
+    padding-left: 50px;
+  }
+  
+  ul li figure img {
+    float: left;
+    width: 41px;
+    padding-right: 10px;
+    margin-left: -90px;
+  }
+
+  .perks {
+    width: 35%;
+    /* border: 1px solid black; */
+    height: auto;
+    float: right;
+    margin-top: 10px;
+  }
+  .values_title_perks {
+    text-align: center;
+    font-size: 1.6rem !important;
+    margin-bottom: 50px;
+    height: auto;
+  }
+
+  .Cnt {
+    width: 100%;
+    height: auto;
+  }
+
+  #item1 {
+    display: flex;
+    width: 100%;
+    height: 35%;
+    background-color: #f6f8f8;
+    border-radius: 8px;
+    padding-top: 35px;
+    padding-right: 8px;
+    margin-bottom: 2px;
+  }
+  #item3 {
+    display: flex;
+    width: 100%;
+    height: 35%;
+    box-shadow: 0 20px 40px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 35px;
+    padding-right: 8px;
+    margin-bottom: 2px;
+  }
+
+  #icon_item1 {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+  }
+  
+  #p_item1 {
+    display: inline-block;
+    width: 80%;
+    margin-top: 0;
+    /* padding-left: 20px; */
+  }
+  
+  #p_item1 p {
+    margin-top: 0;
+    font-size: 13px;
+    color: #747474;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  
+  #p_item1 p strong {
+    color: #000;
+  }
+
+    /*-------------------- GAME JOB --------------------*/
+
+
+  .game_job {
+    /* width: 100vw; */
+    margin: 0 auto;
+    background-image: url(../imgs/video3860.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 511px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  #play_btn {
+    position: relative;
+    top: 380px;
+    left: 610px;
+    animation-duration: .6s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  #llink {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  @keyframes changewidth {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.3);
+      opacity: 0.8;
+    }
+  }
+  
+  .game_job :last-child {
+    position: absolute;
+    display: inline-block;
+  }
+
+  .BFooter {
+    background-color: #f6f8f8;
+    height: auto;
+    text-align: center;
+    position: relative;
+  }
+
+  #work_word {
+      /* border: 1px solid ; */
+      border-radius: 5px;
+      background-color: #00b39b;
+      color: white;
+      padding: 5px 5px;
+      font-size: 32px;
+  }
+
+  #BFooterP {
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight:300;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#blue_words {
+    color:#3d83df;
+}
+
+#BFooterP2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color:#747474;
+    padding-bottom: 50px;
+}
+
+footer {
+    margin: 0;
+}
+
+
+
+    @media (max-width: 768px)
+{/*************************************** START **************************************
+    /* FOR SMARTPHONES */
+    .bg_top {
+        height: 93vh !important;
+        top: 48px !important;
+      }
+    
+      .article {
+        top: 4% !important;
+        left: 5% !important;
+        width: 90% !important;
+        min-width: 90% !important;
+        height: 90% !important;
+        min-height: 90% !important;
+        background-color: white;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 30px !important;
+      }
+    /*------------------------------ jobs ------------------------*/
+    .jobs {
+        position: relative;
+        top: 48px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .global_margin_2 {
+        margin: 0 7% !important;
+      }
+    .global_margin2 {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .j_title {
+        font-size: 1.6rem !important;
+        margin-bottom: 30px !important;
+        overflow-x: hidden;
+    }
+
+    .Card {
+        border-radius: 5px;
+        align-items: stretch;
+        border: 1px solid #eeeeee;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .Card a{
+        text-decoration: none;
+        background-color: #3d83df;
+        border-radius: 5px;
+        font-weight: 500;
+        color: white;
+        padding: 13px 20px !important;
+        font-size: 8px !important;
+        margin: 20px 20px !important;
+        display: inline-block;
+      }
+      
+      .Card p {
+        font-weight: 100 !important;
+        font-size: 1.4rem !important;
+      }
+    /*------------------------------ together ------------------------*/
+    .together p {
+        margin-top: 30px !important;
+        margin-bottom: 30px;
+        font-size: 1.6rem !important;
+      }
+    .together {
+        height: 875px !important;
+      }
+      .item1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 10px;
+      }
+    
+      .item1 img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      
+      .item1:hover .play {
+        fill: #00b39b;
+      }
+      
+      .item2 {
+        /* display:none !important; */
+        position: absolute;
+        top: 330px !important;
+        height: auto !important;
+        left: 0 !important;
+        width: 48.9% !important;
+        margin-bottom: 10px;
+      }
+    
+      .item2 img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      
+      .item3 {
+        position: absolute;
+        top: 175px !important;
+        left: 51%!important;
+        width: 48.9%!important;
+        height: 295px!important;
+      }
+    
+      .item3 img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      
+      .item4 {
+        position: absolute;
+        width: 48.93617021% !important;
+        height: auto !important;
+        top: 175px !important;
+        left: 0 !important;
+        width: 48.9% !important;
+        margin-bottom: 10px;
+      }
+    
+      .item4 img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      
+      .item5 {
+        padding: 7% 17% !important;
+        width: 100%!important;
+        height: auto!important;
+        top: 500px!important;
+        left: auto!important;
+      }
+    
+      .item5 a {
+        font-weight: 500 !important;
+        font-size: 11px !important;
+      }
+      
+      .item5 p {
+        font-size:14px !important;
+        font-weight: 100 !important;
+      }
+    /* -------------------- VALUES PERKS --------------------*/
+      .values_perks {
+        padding-top: 50px;
+        width: 100%;
+        /* display: flex; */
+        height: auto !important;
+        overflow-y: hidden;
+      }
+      .values {
+        width: 100% !important;
+        height: auto;
+        /* float: left; */
+        margin-top: 10px;
+      }
+      .values_title {
+        text-align: center;
+        font-size: 1.6rem !important;
+        margin-top: 50px !important;
+        height: auto;
+      }
+
+        .col-2-1 {
+        width: 100% !important;
+        height: auto;
+        float: left;
+        padding-right: 20px;
+      }
+
+      .col-2-1 ul li {
+        height: auto !important;
+        font-size: 10px;
+      }
+    
+      .col-2-1 ul{
+        margin-bottom: 0 !important;
+      }
+
+      .li_header {
+        padding-top: 10px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      
+      .li_p {
+        font-size: 12px;
+        color: #747474;
+        margin: 9px 0;
+        line-height: 18px;
+      }
+
+      .col-2-2 {
+        width: 100% !important;
+        height: auto;
+        float: right;
+        padding-right: 20px;
+      }
+      .col-2-2 ul li {
+        height: auto !important;
+        font-size: 10px;
+      }
+      ul {
+        list-style: none;
+        height: auto !important;
+        padding: 0;
+      }
+      
+      li {
+        padding-left: 50px;
+      }
+      
+      ul li figure img {
+        float: left;
+        width: 41px;
+        padding-right: 10px;
+        margin-left: -90px;
+      }
+
+      .perks {
+        width: 100% !important;
+        /* border: 1px solid black; */
+        height: auto;
+        /* float: right; */
+        margin-top: 0!important;
+      }
+      .values_title_perks {
+        text-align: center;
+        font-size: 1.6rem !important;
+        margin-bottom: 50px;
+        height: auto;
+      }
+
+      .Cnt {
+        width: 100%;
+        height: auto;
+      }
+
+      #item1 {
+        display: flex;
+        width: 100%;
+        height: 35%;
+        background-color: #f6f8f8;
+        border-radius: 8px;
+        padding-top: 35px;
+        padding-right: 8px;
+        margin-bottom: 2px;
+      }
+      #item3 {
+        background-color: rgb(247, 243, 243) !important;
+      }
+
+      /*-------------------- GAME JOB --------------------*/
+      .game_job {
+        position: relative !important;
+        width: 100% !important;
+        /* top : 10px !important; */
+        margin: 0 auto;
+        background-image: url(../imgs/video3860.jpg);
+        background-position:top;
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: 200px !important;
+        margin-bottom: 40px;
+      }
+    
+      #play_btn { /* button img in game_job class*/
+        position: relative;
+        top: 145px !important;
+        left: 230px !important;
+        width : 70px;
+        height: auto;
+        animation-duration: .6s;
+        animation-name: changewidth;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+    /* -------------------- END --------------------*/
+  }
