@@ -409,7 +409,7 @@ const Footer = (props) => {
                      <a href="https://www.doctoraliar.com/">Argentina</a>,
                      <a href="https://www.doctoralia.pe/">Peru</a> and 
                      <a href="https://www.doctoralia.cl/">Chile</a></p>
-                        <p>his site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.</p>
+                        <p>This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.</p>
                         <p>www.docplanner.com © 2021</p>
                 </div>
             </div>
